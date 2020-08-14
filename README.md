@@ -20,8 +20,8 @@ The `redirectUri` needs to be https. [ngrok](https://ngrok.com)/[serveo](https:/
 },
 ```
 
-## Oauth post body fix
+## Meteor <= 1.9.3 needs an Oauth post body fix (Meteor 1.10+ has this fix included)
 
-I had to fix the oauth package to make it work with post body data.
+I had to fix the oauth package to make it work with post body data in older meteor.
 You need to add the package from my fork:
 [https://github.com/jramer/meteor/tree/feature/oauth-post-body/packages/oauth](https://github.com/jramer/meteor/tree/feature/oauth-post-body/packages/oauth)
